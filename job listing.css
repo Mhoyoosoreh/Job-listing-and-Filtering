@@ -1,0 +1,143 @@
+:root {
+    --highlight-color: hsl(255,98%,50%);
+    --very-dark-color: hsl(255, 14%, 20%);
+  }
+html {
+    font-size: 15px;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.4s ease-in;
+    }
+    
+    body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    
+    .land {
+        height: 100%;
+        background-color: whitesmoke;
+        background-image: url(images/web.jpg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+       
+    
+        header {
+            padding: 0;
+        }
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+    
+                h1 {
+                    font-family: 'Poppins' sans-serif, ;
+                    color: var(--highlight-color);
+                    font-size: 2rem;
+                }
+    
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+                }
+    
+                    li {
+                        padding: 0 4rem;
+                    }
+    
+                        a {
+                            font-weight: 500;
+                            color: var(--highlight-color);
+                            text-decoration: none;
+                            font-family: 'Poppins', sans-serif;
+                        }    
+        
+        section.hero {
+            padding-top: 6rem;
+            margin: 0 300px;
+        }
+    
+            h2 {
+                font-size:3rem;
+                color: var(--highlight-color);
+                display: block;
+                font-weight: 400;
+                
+            }
+    
+            p {
+                width: 400px;
+                color: var(--very-dark-color);
+                margin-top: 2rem;
+            }
+    
+            button {
+                background-color: var(--highlight-color);
+                padding: 1rem 3rem;
+                border-radius: 2rem;
+                font-size: 1.3rem;
+                border: 0;
+                color: white;
+                margin-top: 2.5rem;
+            }
+             
+       
+         .container {
+         width: auto;
+         margin: 0 300px;
+          }
+            
+          footer {
+                border-top: 2px solid #f1f1f1;
+                box-shadow: 0px -2px 3px #000;
+                text-align: center;
+                color: #000;
+              }
+          
+         @media  screen and (max-width: 1260px) {
+            .container {
+                 margin: 0 200px;
+              }
+                    
+          }
+    
+          @media screen and (max-width: 960px) {
+            html {
+                font-size: 12px;
+            }
+          }
+          @media screen and (max-width: 760px) {
+            .container {
+                width: 100%;
+                margin: 0;
+            }
+        }
+          @media screen and (max-width: 760px) {
+            
+                header{
+                    padding: 2rem;
+                }
+            
+    
+                section.hero {
+                    padding: 0 2rem;
+                }
+            }
+          
+            
+        
+    
+    
+    
+    
+    
+    
+    
+    
